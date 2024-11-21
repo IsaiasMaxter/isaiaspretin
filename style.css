@@ -5,7 +5,7 @@
             background-color: #f4f4f4;
         }
         header {
-            background-color: #333;
+            background-color: 432E54;
             color: white;
             padding: 20px;
             text-align: center;
@@ -20,7 +20,7 @@
             font-size: 2em;
         }
         .banner {
-            width: 100%;
+            width: 150%;
             height: 400px;
             background-image: url(https://isaiasmaxter.github.io/isaiaspretin/); 
             background-size: cover;
