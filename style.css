@@ -1,214 +1,86 @@
-/* style.css */body {
-
-font-family: Arial, sans-serif;
-
-margin: 0;
-
-padding: 0;
-
-color: #333;
-
-background-color: #f4f4f4;
-
-}header {
-
-background-color: #FF6F61; /* Cor do Color Hunt */
-
-color: white;
-
-text-align: center;
-
-padding: 20px 0;
-
-}.banner {
-
-display: flex;
-
-justify-content: center;
-
-align-items: center;
-
-height: 400px;
-
-background-image: url('sua-imagem-aqui.jpg'); /* Substitua pela URL da imagem do banner */
-
-background-size: cover;
-
-background-position: center;
-
-margin: 20px 0;
-
-}section {
-
-padding: 20px;
-
-text-align: center;
-
-background-color: white;
-
-margin: 0 20px;
-
-border-radius: 8px;
-
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-
-}footer {
-
-background-color: #333;
-
-color: white;
-
-text-align: center;
-
-padding: 10px 0;
-
-position: relative;
-
-bottom: 0;
-
-width: 100%;
-
-}h1, h2, h3 {
-
-margin: 0;
-
-}p {
-
-line-height: 1.6;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-Certifique-se de que o arquivo style.css esteja corretamente vinculado ao seu arquivo HTML, substituindo a linha na tag `` para incluir o arquivo CSS:  css
-
-/* style.css */body {
-
-font-family: Arial, sans-serif;
-
-margin: 0;
-
-padding: 0;
-
-color: #333;
-
-background-color: #f4f4f4;
-
-}header {
-
-background-color: #FF6F61; /* Cor do Color Hunt */
-
-color: white;
-
-text-align: center;
-
-padding: 20px 0;
-
-}.banner {
-
-display: flex;
-
-justify-content: center;
-
-align-items: center;
-
-height: 400px;
-
-background-image: url('sua-imagem-aqui.jpg'); /* Substitua pela URL da imagem do banner */
-
-background-size: cover;
-
-background-position: center;
-
-margin: 20px 0;
-
-}section {
-
-padding: 20px;
-
-text-align: center;
-
-background-color: white;
-
-margin: 0 20px;
-
-border-radius: 8px;
-
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-
-}footer {
-
-background-color: #333;
-
-color: white;
-
-text-align: center;
-
-padding: 10px 0;
-
-position: relative;
-
-bottom: 0;
-
-width: 100%;
-
-}h1, h2, h3 {
-
-margin: 0;
-
-}p {
-
-line-height: 1.6;
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F1F1F1; /* Cor de fundo leve */
+    color: #4C4C6C; /* Cor do texto */
 }
 
-Certifique-se de que o arquivo style.css esteja corretamente vinculado ao seu arquivo HTML, substituindo a linha na tag `` para incluir o arquivo CSS:          {
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
-color: #333;
-background-color: #f4f4f4;
-}
-
+/* Header */
 header {
-background-color: #FF6F61; /* Cor do Color Hunt */
-color: white;
-text-align: center;
-padding: 20px 0;
+    background-color: #6C63FF; /* Roxo escuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
+header img {
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+header h1 {
+    display: inline;
+    font-size: 2.5em;
+}
+
+/* Banner */
 .banner {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 400px;
-background-image: url('sua-imagem-aqui.jpg'); /* Substitua pela URL da imagem do banner */
-background-size: cover;
-background-position: center;
-margin: 20px 0;
+    width: 100%;
+    height: 400px;
+    background-image: url('https://via.placeholder.com/1500x400'); /* Substitua pela sua imagem */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-size: 2.5em;
+    background-blend-mode: overlay;
+    background-color: rgba(108, 99, 255, 0.6); /* Cor roxa com transparência */
 }
 
-section {
-padding: 20px;
-text-align: center;
-background-color: white;
-margin: 0 20px;
-border-radius: 8px;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+/* Conteúdo */
+.content {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #FEFEFE; /* Fundo branco */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 1.1em;
+    line-height: 1.6;
 }
 
+.content h2 {
+    font-size: 2em;
+    color: #6C63FF;
+    margin-bottom: 20px;
+}
+
+/* Rodapé */
 footer {
-background-color: #333;
-color: white;
-text-align: center;
-padding: 10px 0;
-position: relative;
-bottom: 0;
-width: 100%;
+    background-color: #6C63FF; /* Roxo escuro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    margin-top: 40px;
 }
 
-h1, h2, h3 {
-margin: 0;
+footer p {
+    margin: 5px 0;
 }
 
-p {
-line-height: 1.6;
+footer a {
+    color: #D9B9FF; /* Roxo claro para links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
