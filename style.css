@@ -1,1 +1,214 @@
+/* style.css */body {
 
+font-family: Arial, sans-serif;
+
+margin: 0;
+
+padding: 0;
+
+color: #333;
+
+background-color: #f4f4f4;
+
+}header {
+
+background-color: #FF6F61; /* Cor do Color Hunt */
+
+color: white;
+
+text-align: center;
+
+padding: 20px 0;
+
+}.banner {
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+height: 400px;
+
+background-image: url('sua-imagem-aqui.jpg'); /* Substitua pela URL da imagem do banner */
+
+background-size: cover;
+
+background-position: center;
+
+margin: 20px 0;
+
+}section {
+
+padding: 20px;
+
+text-align: center;
+
+background-color: white;
+
+margin: 0 20px;
+
+border-radius: 8px;
+
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}footer {
+
+background-color: #333;
+
+color: white;
+
+text-align: center;
+
+padding: 10px 0;
+
+position: relative;
+
+bottom: 0;
+
+width: 100%;
+
+}h1, h2, h3 {
+
+margin: 0;
+
+}p {
+
+line-height: 1.6;
+
+}
+
+Certifique-se de que o arquivo style.css esteja corretamente vinculado ao seu arquivo HTML, substituindo a linha na tag `` para incluir o arquivo CSS:  css
+
+/* style.css */body {
+
+font-family: Arial, sans-serif;
+
+margin: 0;
+
+padding: 0;
+
+color: #333;
+
+background-color: #f4f4f4;
+
+}header {
+
+background-color: #FF6F61; /* Cor do Color Hunt */
+
+color: white;
+
+text-align: center;
+
+padding: 20px 0;
+
+}.banner {
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+height: 400px;
+
+background-image: url('sua-imagem-aqui.jpg'); /* Substitua pela URL da imagem do banner */
+
+background-size: cover;
+
+background-position: center;
+
+margin: 20px 0;
+
+}section {
+
+padding: 20px;
+
+text-align: center;
+
+background-color: white;
+
+margin: 0 20px;
+
+border-radius: 8px;
+
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}footer {
+
+background-color: #333;
+
+color: white;
+
+text-align: center;
+
+padding: 10px 0;
+
+position: relative;
+
+bottom: 0;
+
+width: 100%;
+
+}h1, h2, h3 {
+
+margin: 0;
+
+}p {
+
+line-height: 1.6;
+
+}
+
+Certifique-se de que o arquivo style.css esteja corretamente vinculado ao seu arquivo HTML, substituindo a linha na tag `` para incluir o arquivo CSS:          {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+color: #333;
+background-color: #f4f4f4;
+}
+
+header {
+background-color: #FF6F61; /* Cor do Color Hunt */
+color: white;
+text-align: center;
+padding: 20px 0;
+}
+
+.banner {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 400px;
+background-image: url('sua-imagem-aqui.jpg'); /* Substitua pela URL da imagem do banner */
+background-size: cover;
+background-position: center;
+margin: 20px 0;
+}
+
+section {
+padding: 20px;
+text-align: center;
+background-color: white;
+margin: 0 20px;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px 0;
+position: relative;
+bottom: 0;
+width: 100%;
+}
+
+h1, h2, h3 {
+margin: 0;
+}
+
+p {
+line-height: 1.6;
+}
