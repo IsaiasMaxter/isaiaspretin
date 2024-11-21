@@ -12,7 +12,7 @@
         }
         header img {
             width: 20px;
-            vertical-align: flex-start;
+            vertical-align: justify-content;
             margin-right: 10px;
         }
         header h1 {
