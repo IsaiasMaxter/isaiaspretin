@@ -1,5 +1,5 @@
  body {
-            font-family: Arial, sans-serif;
+   font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #432E54
@@ -20,7 +20,7 @@
             font-size: 2em;
         }
         .banner {
-            width: 150%;
+            width: 250%;
             height: 400px;
             background-image: url(https://isaiasmaxter.github.io/isaiaspretin/); 
             background-size: cover;
